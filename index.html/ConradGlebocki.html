@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conrad Glebocki</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5; /* Light gray background color */
+            color: #000; /* Black text color */
+            line-height: 1.6;
+        }
+
+        .profile-section {
+            display: flex;
+            flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+            align-items: flex-start;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;      }
+
+        .text-content {
+            flex: 1;
+            max-width: 600px;
+            margin-right: 20px;
+        }
+
+        .profile-image-container {
+            flex: 1;
+            text-align: center;
+            margin-left: 20px; /* Adjust margin to move image and link to the right */
+        }
+
+        .circle-image {
+            width: 300px; /* Profile picture size */
+            height: 300px;
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image covers the circle area without distortion */
+        }
+
+        .title {
+            margin: 0;
+            padding-bottom: 20px;
+        }
+
+        .report-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .report-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px; /* Space between title and date */
+        }
+
+        .report-section h2 {
+            margin: 0;
+        }
+
+        .report-section span {
+            font-size: smaller;
+        }
+
+        .report-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .report-section li {
+            margin-top: 10px;
+        }
+
+        .report-section a {
+            color: #003d79; /* Dark blue color */
+            text-decoration: none;
+        }
+
+        .report-section a:hover {
+            text-decoration: underline;
+        }
+
+        .linkedin-link {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .linkedin-link a {
+            color: #003d79; /* Dark blue color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .linkedin-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .profile-section {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .text-content {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .profile-image-container {
+                margin-left: 0;
+            }
+
+            .circle-image {
+                width: 200px; /* Smaller profile picture size on smaller screens */
+                height: 200px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .circle-image {
+                width: 150px; /* Even smaller profile picture size on very small screens */
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-section">
+        <div class="text-content">
+            <h1 class="title">CONRAD GLEBOCKI</h1>
+            <p>Hello! I'm an Economics student at Rutgers New Brunswick. I've been trading full-time since October 2022 and am driven by a deep passion for the markets.</p>
+            <p>I am able to trade full time during the day while attending classes at night. I have been documenting my progress by journaling, creating daily, weekly, and monthly reports while also back-testing various trading strategies.</p>
+            <p>I created this blog to neatly organize and share some of my favorite and most impactful work. Here, you'll find detailed reports, insights, and the strategies that have shaped my trading journey.</p>
+            <p>Thank you for visiting, and I hope you find my experiences and analyses valuable!</p>
+        </div>
+        <div class="profile-image-container">
+            <img src="IMG_4951.jpeg" alt="Profile Picture" class="circle-image">
+            <div class="linkedin-link">
+                <a href="http://linkedin.com/in/conrad-glebocki-57230b22b" target="_blank">Connect with me on LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="report-section">
+        <div class="report-header">
+            <h2>How I Structure My Daily Reports</h2>
+            <span>July 23, 2024</span>
+        </div>
+        <section>
+            <div>
+                <ul>
+                    <li><a href="https://docs.google.com/presentation/d/16wbGZAhBfuCiKgDN8Od2yXN0DcvwBC0DudkjoRh-20U/edit" target="_blank">Click to read</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
